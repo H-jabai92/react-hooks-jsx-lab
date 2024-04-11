@@ -1,7 +1,15 @@
 import React from "react";
+import Home from './Home';
+import About from './About';
 
 function NavBar() {
-  // update the JSX being returned!
+  <div>
+    <ul>
+      <li>Home
+      </li>
+      <li>About</li>
+    </ul>
+  </div>
   return <nav>NavBar</nav>;
 }
 
